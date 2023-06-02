@@ -28,8 +28,8 @@ function showMovies(movies) {
     movies.forEach((movie) => {
         const { poster_path, title, vote_average, overview, id } = movie;
 
-        const movieElement = document.createElement("div"); //?
-        movieElement.classList.add("movie"); //?
+        const movieElement = document.createElement("div");
+        movieElement.classList.add("movie"); 
         // HTML에 넣어주기
         movieElement.innerHTML = `
             <img
